@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header styling starts here */
+
+/* nav styling begins here */
+header > .nav-sec{
+    /* position: fixed; */
+}
+
+nav.nav-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+nav.nav-sec > div.nav-div-one  span{
+    color: rgb(33, 167, 227);
+    font-weight: 900;
+}
+nav.nav-sec > div.nav-div-one h1{
+    font-family: serif;
+    font-size: 2rem;
+}
+div.nav-div-two > ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 0 0 .5em;
+}
+
+div.nav-div-two > ul a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: black;
+}
+
+div.nav-div-two > ul a:hover{
+    color: rgb(33, 167, 227);
+    border-top: 3px solid rgb(33, 167, 227);
+}
+
+div.nav-div-two > ul [href=Home] {
+    color: rgb(33, 167, 227);
+}
+
+/* nav styling ends here */
+
+/* Hero sec styling begins here */
+
+section.hero-sec{
+    max-width: 100%;
+    margin-inline: auto;
+    background: url(../image/tobi.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+section.hero-sec > div span{
+    color: rgb(33, 167, 227);
+}
+section.hero-sec > div.hero-div i{
+    color: rgb(33, 167, 227);
+}
+section.hero-sec > div p{
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-bottom: 2em;
+    text-align: center;
+}
+section.hero-sec > div p:last-of-type{
+    margin-bottom: 0%;
+    padding-bottom: 2em;
+}
+section.hero-sec > div p:first-of-type{
+    padding-top: 2em;
+}
+section.hero-sec > div h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2em;
+}
+section.hero-sec > div h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2em;
+}
+section.hero-sec > div {
+    background-color: rgba(19, 10, 10, 0.264);
+}
+/* Hero sec styling ends here */
+
+/* Heading styling ends here */
+
+/* Main styling begins here */
+
+/* About section styling begins here */
+
+section#about-sec{
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 4em;
+    background-color: rgb(242, 241, 241);
+}
+section#about-sec > p{
+    color: rgb(33, 167, 227);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1em 0;
+    font-family: sans-serif;
+}
+section#about-sec > h1{
+    font-size: 2rem;
+    text-align: justify;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+section#about-sec > .about-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 3em;
+}
+section#about-sec > .about-div h1{
+    font-size: 1.5rem;
+    color: rgb(33, 167, 227);
+}
+section#about-sec > .about-div p{
+    font-size: 1.5rem;
+    padding-bottom: 3em;
+}
+/* About section stylig ends here */
+
+/* service section styling begins here */
+
+section#service-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 4em;
+}
+section#service-sec > div.skill h1{
+    font-size: 2rem;
+    padding: 2em 0;
+    font-family: sans-serif;
+}
+section#service-sec > div.skill p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+section#service-sec > div.skill .html-div{
+    max-width: 700px;
+    min-height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(33, 167, 227)80%, rgb(241, 241, 241)50%);
+    text-align: center;
+    font-weight: 400;
+    margin: .5em 0;
+}
+section#service-sec > div.skill .css-div{
+    max-width: 700px;
+    min-height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(33, 167, 227)70%, rgb(241, 241, 241)50%);
+    text-align: center;
+    font-weight: 400;
+    margin: .5em 0;
+}
+section#service-sec > div.skill .js-div{
+    max-width: 700px;
+    min-height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(33, 167, 227)50%, rgb(241, 241, 241)50%);
+    text-align: center;
+    font-weight: 400;
+    margin: .5em 0;
+}
+
+section#service-sec > div.experience h1{
+    font-size: 2rem;
+    padding: 2em 0;
+    font-family: sans-serif;
+}
+section#service-sec > div.experience h2{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding-bottom: 1em;
+}
+section#service-sec > div.experience h2:last-of-type{
+    padding-top: 1em;
+}
+section#service-sec > div.experience p{
+    font-size: 1.5rem;
+}
+
+/* service section styling ends here */
+
+/* Portfolio section styling begins here */
+
+section#portfolio-sec{
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 4em;
+    background-color: rgb(242, 241, 241);
+}
+section#portfolio-sec > h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 1em 0;
+}
+section#portfolio-sec > div.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 3em;
+}
+section#portfolio-sec > div.img img{
+   max-width: 600px;
+}
+
+/* Portfolio section styling ends here */
+
+/* Main styling ends here */
+
+/* Footer styling starts here */
+
+/* contact section styling begins here */
+
+section#contact-sec{
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-inline: auto;
+}
+section#contact-sec > div.location p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding: 2em 0;
+}
+section#contact-sec > div.location h1{
+    font-size: 5rem;
+    border-bottom: 4px solid black;
+}
+section#contact-sec > div.contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6em;
+    padding: 2em 0;
+}
+section#contact-sec > div.contact h2{
+    font-size: 2rem;
+}
+section#contact-sec > div.contact li{
+    list-style: none;
+    padding: 1em 1em 0 0;
+}
+section#contact-sec > div.contact a{
+    font-size: 1.5rem;
+    color: grey;
+}
+section#contact-sec > div.contact li{
+    font-size: 1.5rem;
+    color: grey;
+}
+/* contact section stylung ends here */
+
+/* Footer styling ends here */
+/* media query styling starts here*/
+section:not(.hero-sec){
+    padding: 0 1em;
+}
+@media (max-width: 768px){
+    /* Header styling starts here */
+    nav.nav-sec > div.nav-div-two{
+        display: none;
+    }
+    nav.nav-sec > div.bar i{
+        font-size: 3rem;
+    }
+    section#portfolio-sec > div.img{
+        display: flex;
+        gap: 2em;
+    }
+}
+@media (min-width: 769px){
+    nav.nav-sec > div.bar i{
+        display: none;
+    }
+}
+@media (max-width: 425px){
+    section.hero-sec > div p.mail,section.hero-sec > div p.num{
+        font-size: 1.2rem;
+    }
+    section#portfolio-sec > div.img img{
+        max-width: 300px;
+        margin-inline: center;
+    }
+}
+@media (max-width: 375px){
+    section.hero-sec > div p.mail,section.hero-sec > div p.num{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 320px){
+    section#portfolio-sec > div.img img{
+        max-width: 200px;
+    }
+}
+/* media query styling ends here */
